@@ -1,3 +1,6 @@
+import random as rm
+import collections
+import numpy as np
 def cruza_extre(pobla_padres):
     pobla_hijos=[]
     for i in range(0,25):
