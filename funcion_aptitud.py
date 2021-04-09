@@ -1,3 +1,4 @@
+import numpy as np
 def apt_fit(individuo):
     fittnes=0
     for i in range(0,8):
@@ -8,3 +9,4 @@ def apt_fit(individuo):
             if m==1:
                 fittnes+=1
     return fittnes
+
