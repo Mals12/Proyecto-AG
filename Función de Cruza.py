@@ -7,16 +7,21 @@ def cruza_extre(pobla_padres):
         khijo2=[]
         e=[]
         for i in range(0,8):
-            pos_en_papa2=papa2.index(papa1[i])
-            if i<=6 and pos_en_papa2!=7:
-                ex=[papa1[i-1],papa1[i+1],papa2[pos_en_papa2-1],papa2[pos_en_papa2+1]]
-                e.append(ex)
-            if i==7:
-                ex=[papa1[6],papa1[0],papa2[pos_en_papa2-1],papa2[pos_en_papa2+1]]
-                e.append(ex)
-            if pos_en_papa2==7:
-                ex=[papa1[i-1],papa1[i+1],papa2[pos_en_papa2-1],papa2[0]]
-                e.append(ex)
+            pos_en_papa2 = papa2.index(papa1[i])
+            if i <= 6:
+                if pos_en_papa2 != 7:
+                    ex = [papa1[i - 1], papa1[i + 1], papa2[pos_en_papa2 - 1], papa2[pos_en_papa2 + 1]]
+                    e.append(ex)
+                else:
+                    ex = [papa1[i - 1], papa1[i + 1], papa2[pos_en_papa2 - 1], papa2[i - i]]
+                    e.append(ex)
+            else:
+                if pos_en_papa2 != 7:
+                    ex = [papa1[i - 1], papa1[i - i], papa2[pos_en_papa2 - 1], papa2[pos_en_papa2 + 1]]
+                    e.append(ex)
+                else:
+                    ex = [papa1[i - 1], papa1[i - i], papa2[pos_en_papa2 - 1], papa2[i - i]]
+                    e.append(ex)
         #print(e)
         N=rm.randrange(0,8)
         while len(khijo)<len(papa1):
