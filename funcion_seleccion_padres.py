@@ -1,3 +1,4 @@
+import random as rm
 def selec_padres(poblacion):
     padres=[]
     lisvacia=poblacion.copy()
