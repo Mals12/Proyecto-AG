@@ -1,3 +1,5 @@
+import random as rm
+import numpy as np
 def mut_inser(pobla_hijos):
     pobla_hijos_mut=[]
     for i in range(len(pobla_hijos)):
@@ -9,3 +11,4 @@ def mut_inser(pobla_hijos):
         individuo.insert(pos1+1,cop_individuo[pos2])
         pobla_hijos_mut.append(individuo)
     return pobla_hijos_mut
+
