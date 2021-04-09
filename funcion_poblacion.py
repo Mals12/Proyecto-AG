@@ -1,3 +1,4 @@
+import random as rm
 def crea_poblacion(num_individuos):
     poblacion=[]
     for i in range(0,num_individuos):
