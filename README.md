@@ -15,4 +15,4 @@ y esto se repite hasta llegar al objetivo deseado.
 ![](https://1.bp.blogspot.com/-82PtewK8HMQ/VqWj0Ts0BPI/AAAAAAAAAH0/n7OfLykvakU/s640/Diagrama-de-flujo.png)
  
 ## Población
-En este apartado se define o se crea la población que se va a examinar.
+En este apartado se define o se crea la población que se va a examinar. La tecnica para crear una población varia de acuerdo al tipo de población que tengamos. Para este proyecto la población de incio se creeo aleatoriamente
