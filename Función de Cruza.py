@@ -128,3 +128,4 @@ def cruza_extre(pobla_padres):
         pobla_hijos.append(khijo)
         pobla_hijos.append(khijo2)
     return pobla_hijos
+
