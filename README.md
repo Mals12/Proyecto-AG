@@ -34,7 +34,7 @@ En este apartado los padres seleccionados en la etapa anterior son "cruzados" pa
   * Si no hay elementos repetidos, se checan las listas de los elementos de la lista de extremos de current y se designa a la entrada con la lista más pequeña como nuestro nuevo current, y retornamos al paso 3. 
   * En caso de que las menores entradas tengan igual longitud en sus listas, se selecciona como current un número aleatorio, de las entradas faltantes en el descendiente, y volvemos al paso 3.
   * Se concluye al encontrar un current el cual tenga su lista vacia y el tamaño del descendiente se el esperado.
-   * Si el tamaño no es el adecuado regresamos al paso 2. 
+    * Si el tamaño no es el adecuado regresamos al paso 2. 
 
 ## Mutación
 En esta etapa los individuos (hijos) generados en el apartado anterior son mutados. Existen diferentes tipos (métodos) para mutar individuos, en este caso estaremos usando el método de mutación por inserción. El cual consiste en tomar aleatoriamente 2 posiciones de los elementos del individuo y colocar el elemento de la segunda posición justo después del elemento de la primera posición y los elementos restantes se colocan en el orden que aparecen.
