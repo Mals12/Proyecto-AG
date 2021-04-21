@@ -1,4 +1,5 @@
 import random as rm
+from funcion_aptitud import apt_fit
 def selec_padres(poblacion):
     pro_sel=[]
     pro_acu=[]
@@ -10,8 +11,8 @@ def selec_padres(poblacion):
         proacu=sum(pro_sel)
         pro_acu.append(proacu)
     while len(pobla_padres)<len(poblacion):
-        r_1=random.random()
-        r_2=random.random()
+        r_1=rm.random()
+        r_2=rm.random()
         c_1=0
         c_2=0
         while pro_acu[c_1]<r_1:
