@@ -10,7 +10,7 @@ import collections
 import pandas as pd
 import matplotlib.pyplot as plt
 
-pobla_inicial=crea_poblacion(50)
+pobla_inicial=crea_poblacion(100)
 generaciones=[]
 mejor_fitness=[]
 mejor_individuo=[]
