@@ -76,7 +76,7 @@ def cruza_extre(pobla_padres):
                     Nn=rm.choice(g)
                     g.remove(Nn)
                     cokhijo.append(Nn)
-                N=Nn
+                    N=Nn
         N=rm.randrange(0,8)
         while len(khijo2)<len(papa1):
             khijo2.append(N)
