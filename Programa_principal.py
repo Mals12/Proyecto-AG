@@ -79,5 +79,7 @@ fig,ax=plt.subplots(figsize=(15,10))
 x=np.linspace(0,49,50)
 y=mejor_fitness
 plt.plot(x,y,'b')
+plt.plot(x,y,'ro')
 plt.title('$Grafica\ de\ Convergencia$', loc="center", fontdict={'fontsize':16, 'fontweight':'bold','color':'tab:green'})
-plt.grid()
+plt.xlabel(r"$Generaciones$", fontdict={'fontsize':14, 'fontweight':'bold','color':'tab:red'})
+plt.ylabel(r"$Mejor \ Fitness$", fontdict={'fontsize':14, 'fontweight':'bold','color':'tab:red'})
